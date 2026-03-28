@@ -1,0 +1,56 @@
+# ===========================
+# WellSim — Safe Push Rules
+# ===========================
+
+# Block ALL paper documents (protect intellectual property)
+*.docx
+*.pdf
+*.doc
+*.tex
+*.bib
+
+# Block all generation scripts (contain paper content)
+generate_*.py
+
+# Block output and data directories
+final_documents/
+data/
+datasets/
+*.csv
+*.json
+*.pkl
+*.h5
+*.pt
+*.pth
+*.npy
+*.npz
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter notebooks (can contain sensitive outputs)
+*.ipynb
+
+# Virtual environments
+env/
+venv/
+.venv/
+
+# IDE folders
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
